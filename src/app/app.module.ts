@@ -3,6 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { LayoutComponent } from './layout/layout.component';
+import { NgChartsModule } from 'ng2-charts';
 
 @NgModule({
   declarations: [
@@ -10,7 +11,8 @@ import { LayoutComponent } from './layout/layout.component';
     LayoutComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    NgChartsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
